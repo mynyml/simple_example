@@ -1,0 +1,25 @@
+Add easy fancy-pants examples to your projects.
+
+running:
+
+  require 'lib/simple_example'
+  include SimpleExample
+
+  example do
+    x = 1 + 1
+    y = 2 + 2
+    x + y
+  end
+
+outputs:
+
+  x = (1 + 1)
+  #=> 2
+  y = (2 + 2)
+  #=> 4
+  (x + y)
+  #=> 6
+
+Easy. Fancy.
+
+There are a few neat options to tweak the formatting. See the examples.rb file.
