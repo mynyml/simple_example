@@ -1,2 +1,3 @@
+o compact style should keep constant width for source string (so that results align)
 o formatting settings as options to example method?
 o add optional terminal colours?
