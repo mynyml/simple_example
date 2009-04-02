@@ -1,0 +1,34 @@
+### in readme
+
+== Simple
+  explain why its simple
+
+== Ample
+  This plugin is not ample. It just sounds really cool. I mean, c'mon, "ample simple example"! That name is made of win!
+  Repeat it a few times, you'll see!
+
+    ample simple example
+    ample simple example
+    ample simple example
+    ample simple example
+
+see??
+
+== Plan
+1. code plugin with memorable name
+2. ???
+3. profit!!
+
+
+### in wiki:
+  o tweaks
+  o graceful degradation
+    - define example if one of the libs is missing:
+    - unless Proc.new {}.respond_to?(:to_ruby)
+        def example(&block)
+          puts block.call
+        end
+      end
+    - alternatively, simple print a (clearer?) warning a lib is missing
+
+Ample Simple Example
