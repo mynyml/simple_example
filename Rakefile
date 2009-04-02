@@ -33,7 +33,7 @@ spec = Gem::Specification.new do |s|
   s.homepage        = ''
   s.has_rdoc        = true
   s.require_path    = "lib"
-  s.files           = all_except(gitignored)
+  s.files           = all_except(gitignored << 'generate_examples_results.rb')
 
   s.add_dependency 'ruby2ruby'
   s.add_dependency 'ParseTree'
