@@ -26,8 +26,8 @@ end
 spec = Gem::Specification.new do |s|
   s.name            = 'simple_example'
   s.version         = '0.1'
-  s.summary         = "Easy fancy-pants examples for your projects."
-  s.description     = "Easy fancy-pants examples for your projects."
+  s.summary         = "Add easy fancy-pants examples to your projects."
+  s.description     = "Add easy fancy-pants examples to your projects."
   s.author          = "Martin Aumont"
   s.email           = 'mynyml@gmail.com'
   s.homepage        = ''
