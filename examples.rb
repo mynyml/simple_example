@@ -42,7 +42,7 @@ SimpleExample::Format.result_prefix = ''
 
 example { 1 + 1; 2 + 2 }
 
-# io style
+# io shell style
 SimpleExample::Format.source_prefix = 'rb> '
 SimpleExample::Format.result_prefix = '==> '
 
